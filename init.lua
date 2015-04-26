@@ -5,7 +5,7 @@
 print("[amgmt_plugin] (Plugin for Another Map Generator for Minetest)")
 
 -- parameter
-local ACTIVATED_PLUGIN = {}
+local ACTIVATED_PLUGIN = {"floating_island"}
 local DEBUG = true
 
 if not minetest.get_modpath("amgmt") then
