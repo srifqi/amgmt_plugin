@@ -1,4 +1,5 @@
--- Plugin for Another Map Generator mod for Minetest [amgmt_plugin] by srifqi
+-- Plugin for Another Map Generator mod for Minetest [amgmt_plugin]
+-- by Muhammad Rifqi Priyo Susanto (srifqi)
 -- License: CC0 1.0 Universal
 -- Dependencies: amgmt, default
 
@@ -13,8 +14,8 @@ if not minetest.get_modpath("amgmt") then
 	return false, "You need amgmt mod to run this plugin"
 end
 if not amgmt.biome.clear then
-	minetest.log("error","[amgmt_plugin] You need to update your amgmt mod to at minimum 0.5")
-	return false, "You need to update your amgmt to at minimum 0.5"
+	minetest.log("error","[amgmt_plugin] You need to update your amgmt mod to at least 0.5")
+	return false, "You need to update your amgmt to at least 0.5"
 end
 
 -- Minetest library - misc_helpers.lua

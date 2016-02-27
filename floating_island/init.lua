@@ -21,6 +21,7 @@ badd({
 	maxt = 1,
 	minh = 0,
 	maxh = 50,
+	spawn_here = true,
 	trees = {{"grass14",30}, {"grass35",5},{"flowers",15},{"normal",50}},
 	get_block = function(temp, humi, base, wl, y)
 		if base < 0 or y < -base then
@@ -42,6 +43,7 @@ badd({
 	maxt = 1,
 	minh = 50,
 	maxh = 100,
+	spawn_here = true,
 	trees = {{"jungle",16},{"jungle_grass",5},{"flowers",20}},
 	get_block = function(temp, humi, base, wl, y)
 		if base < 0 or y < -base then
@@ -63,6 +65,7 @@ badd({
 	maxt = 2,
 	minh = 0,
 	maxh = 100,
+	spawn_here = true,
 	trees = {{"cactus",30}},
 	get_block = function(temp, humi, base, wl, y)
 		if base < 0 or y < -base then

@@ -21,6 +21,7 @@ badd({
 	name = "Desert",
 	mint = 0,
 	maxt = 2,
+	spawn_here = true,
 	trees = {{"cactus",50},{"dry_shrub",50},{"desert_well",512},{"sandstone_boulder",256}},
 	get_block = function(temp, humi, base, wl, y)
 		if y > base and y > wl then
